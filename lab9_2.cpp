@@ -1,7 +1,22 @@
 #include<iostream>
 using namespace std;
 
-//Write the function printO() here
+int printO(int taew , int lenght){
+    
+    if(taew > 0 && lenght > 0){
+    
+	    for(int i = 1 ; i <= taew ; i++){
+	    	for(int j = 1 ; j <= lenght ; j++){
+	    		cout << 'O';
+	    	}
+	    	cout << endl;
+	    }
+	} else{
+        cout << "Invalid input";
+    }
+	return 0;
+}
+
 
 int main(){
 	
